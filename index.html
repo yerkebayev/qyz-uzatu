@@ -515,7 +515,7 @@ button:hover {
   </div>
 </div>
 
-<audio id="music" src="music2.mp3" autoplay loop></audio>
+<audio id="music" src="music3.mp3" autoplay loop></audio>
 
 <script>
   const playBtn = document.getElementById("playBtn");
@@ -581,7 +581,7 @@ button:hover {
     <h1 style="font-family: 'Great Vibes', cursive;">Той салтанаты:</h1>
 
     <div class="date-info">
-      <div>жұма</div>
+      <div>сенбі</div>
       <p class="date" style="font-family: 'Great Vibes', cursive;">19 шілде <br>2025 жыл</p>
       <div>17:00</div>
     </div>
@@ -687,14 +687,14 @@ button:hover {
   <img src="https://static.tildacdn.com/tild6433-3135-4636-b232-613237353237/Group_6.png" class="ornament" alt="Kazakh Ornament">
 
   <h1 style="font-family: 'Marck Script', cursive;">Той иесі:</h1>
-  <p class="names" style="font-family: 'Marck Script', cursive;">Қарлығаш</p>
+  <p class="invitation-text" style="font-size: 30px; color: #800000; font-weight: bold;">Қарлығаш</p>
 
   <img src="https://static.tildacdn.com/tild6433-3135-4636-b232-613237353237/Group_6.png" class="ornament" alt="Kazakh Ornament" style="transform: rotate(180deg);">
 </div>
 
 <div class="container">
 
-  <h1>Тойға келесіз бе?</h1>
+  <h1 style="font-family: 'Caveat'">Тойға келесіз бе?</h1>
 
   <form id="rsvp-form">
     <input type="text" id="name" placeholder="Есіміңіз" required>
@@ -702,7 +702,8 @@ button:hover {
     <label>Жұбыңызбен келсеңіз, есімін бірге жазуыңызды сұраймыз!</label>
 
     <div class="radio-group">
-      <label><input type="radio" name="answer" value="Әрине, келемін" required> Әрине, келемін</label>
+      <label><input type="radio" name="answer" value="Жалғыз келемін" required>Жалғыз келемін</label>
+      <label><input type="radio" name="answer" value="Жұбыммен келемін" required>Жұбыммен келемін</label>
       <label><input type="radio" name="answer" value="Өкінішке орай, келе алмаймын"> Өкінішке орай, келе алмаймын</label>
     </div>
 
@@ -741,7 +742,7 @@ button:hover {
 
 <script>
   const botToken = "7878378323:AAEu9pBaaBYZxW2L8rhBZfD-QZAZvyrmpgo";
-  const chatId = "1360043549"; // e.g. -1001234567890 or your user ID
+  const chatId = "956125860"; // e.g. -1001234567890 or your user ID
 
   const form = document.getElementById("rsvp-form");
   const loader = document.getElementById("loader");
@@ -752,7 +753,7 @@ button:hover {
 
     const name = document.getElementById("name").value;
     const answer = document.querySelector('input[name="answer"]:checked').value;
-    const message = `📩 *Той RSVP*\n👤 Есім: ${name}\n✅ Жауап: ${answer}`;
+    const message = `📩 *Қыз ұзату*\n👤 Есім: ${name}\n✅ Жауап: ${answer}`;
 
     // Show loader
     loader.style.display = "block";
